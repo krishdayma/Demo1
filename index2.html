@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirav Traders | Modern Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0f172a; color: white; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .glow { box-shadow: 0 0 20px rgba(59, 130, 246, 0.5); }
+        .hero-gradient { background: radial-gradient(circle at top right, #1e3a8a, transparent); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-up { animation: fadeIn 0.8s ease-out forwards; }
+    </style>
+</head>
+<body class="hero-gradient min-h-screen">
+
+    <nav class="p-6 flex justify-between items-center max-w-7xl mx-auto">
+        <h1 class="text-2xl font-bold tracking-tighter text-blue-400">NIRAV <span class="text-white">TRADERS</span></h1>
+        <div class="space-x-6 hidden md:flex">
+            <a href="#" class="hover:text-blue-400 transition">Services</a>
+            <a href="#" class="hover:text-blue-400 transition">About</a>
+            <a href="mailto:kdayma415@gmail.com" class="bg-blue-600 px-5 py-2 rounded-full font-medium glow hover:bg-blue-500 transition">Contact Us</a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-6 pt-20 pb-32 text-center md:text-left flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 animate-up">
+            <span class="text-blue-400 font-semibold tracking-widest uppercase text-sm">Now Operating in Sami, Patan</span>
+            <h2 class="text-5xl md:text-7xl font-extrabold mt-4 leading-tight">
+                Trading Excellence <br> <span class="text-blue-500">Redefined.</span>
+            </h2>
+            <p class="text-gray-400 mt-6 text-lg max-w-lg">
+                High-tech supply chain solutions for modern business needs. Reliable, fast, and dedicated to your growth.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <a href="tel:7990374877" class="bg-white text-black px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-gray-200 transition">
+                    <i class="fa-solid fa-phone"></i> Call Now
+                </a>
+                <div class="glass px-8 py-4 rounded-xl flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-location-dot text-blue-400"></i> Sami, Gujarat
+                </div>
+            </div>
+        </div>
+
+        <div class="md:w-1/2 mt-16 md:mt-0 relative flex justify-center animate-up" style="animation-delay: 0.2s;">
+            <div class="w-64 h-64 md:w-80 md:h-80 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse absolute"></div>
+            <div class="glass p-8 rounded-3xl glow">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-4 bg-white/5 rounded-2xl border border-white/10 text-center">
+                        <i class="fa-solid fa-chart-line text-3xl text-blue-400 mb-2"></i>
+                        <div class="text-sm">Scalable</div>
+                    </div>
+                    <div class="p-4 bg-white/5 rounded-2xl border border-white/10 text-center">
+                        <i class="fa-solid fa-shield-halved text-3xl text-blue-400 mb-2"></i>
+                        <div class="text-sm">Secure</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-white/10 py-10">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-gray-400">
+            <div>
+                <i class="fa-solid fa-envelope text-blue-400 mb-2"></i>
+                <p>kdayma415@gmail.com</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen text-blue-400 mb-2"></i>
+                <p>+91 7990374877</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-map-pin text-blue-400 mb-2"></i>
+                <p>No 2, APMC Sami, Patan, 384245</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
